@@ -1,8 +1,8 @@
 :root{
     --cor-de-fundo:#4579d8; 
     --verde:#d85f5a;
-    --botao-inativo:#88d475;
-    --texto-fundo:#dce46d;
+    --botao-inativo:#a3f38d;
+    --texto-fundo:#e3eb7d;
 }
 body{
     background-color: var(--cor-de-fundo);
@@ -18,6 +18,19 @@ body{
     width: 100%;
     margin: 0 auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 .titulo-principal{
     text-align: center;
     width: 100%;
@@ -35,4 +48,12 @@ body{
     border-bottom: 4px solid var(--botao-ativo);
     border-left: 2px solid var(--botao-ativo);
     border-right: 2px;
+}
+.activo{
+    media screen and (min-whidth:768px) {
+        .botoes{
+            display: flex;
+        }
+        .botao:last
+    }
 }
